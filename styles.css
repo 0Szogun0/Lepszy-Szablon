@@ -1,0 +1,113 @@
+/* Resetowanie domyślnych styli */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styl dla całej strony */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Kolor tła strony */
+}
+
+/* Styl dla nagłówka */
+header {
+    background-color: #1a1a2e; /* Ciemny niebieski kolor przewodni */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* Styl dla nawigacji */
+/* Styl dla nawigacji */
+nav {
+    background-color: #36368a; /* Ciemny niebieski kolor tła */
+    padding: 10px 0; /* Wewnętrzny odstęp góra/dół */
+    border-radius: 4px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px; /* Wewnętrzny odstęp lewo/prawo */
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #333; /* Ciemniejszy kolor podczas najechania */
+}
+
+
+/* Styl dla sekcji ogłoszeń */
+.Ogłoszenia {
+    padding: 20px;
+}
+
+.Ogłoszenia h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styl dla sekcji ogłoszeń - zawartość */
+.s1 {
+    background-color: #333; /* Ciemny niebieski kolor dla sekcji ogłoszeń */
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+    background-color: #ffd700; /* Kolor tła dla linku */
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    transition: background-color 0.3s ease; /* Płynne przejście dla zmiany koloru tła */
+}
+
+.link:hover {
+    background-color: #555; /* Zmiana koloru tła podczas najechania */
+}
+
+/* Styl dla stopki */
+footer {
+    background-color: #1a1a2e; /* Ciemny niebieski kolor dla stopki */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+.imglogo {
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+    object-fit: cover;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
